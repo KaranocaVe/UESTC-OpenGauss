@@ -51,9 +51,9 @@
 - 多角色界面（员工、经理、人事）
 - 缓存优化与 JWT 安全机制
 
-![登录页面示意图](./doc-images/login.png)
-![员工信息页面](./doc-images/employee-info.png)
-![薪资统计图表](./doc-images/salary-stats.png)
+![登录页面示意图](./doc-images/login.jpg)
+![员工信息页面](./doc-images/employee-info.jpg)
+![薪资统计图表](./doc-images/salary-stats.jpg)
 
 ---
 
@@ -81,7 +81,3 @@ cd backend
 ## 📚 参考文献
 
 * 华为 openGauss 数据库: [https://opengauss.org](https://opengauss.org)
-
----
-
-© 2025 UESTC 鲲鹏聚数项目组. 保留所有权利.
