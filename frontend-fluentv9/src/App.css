@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* App.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.mica-background {
+    /* 设置全屏背景 */
+    position: absolute;
+    inset: 0;
+    overflow: auto;
+
+    /* 更柔和的渐变色背景 */
+    background: linear-gradient(to bottom right, #8b5cf6, #60a5fa, #4c1d95);
+
+    /* 更柔和的 Mica 效果 */
+    backdrop-filter: blur(15px) brightness(0.9);
+    -webkit-backdrop-filter: blur(15px) brightness(0.9);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(147, 147, 153, 0.5);
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}

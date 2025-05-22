@@ -1,0 +1,37 @@
+{
+  "name": "frontend-fluentv9",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/react-alert": "^9.0.0-beta.124",
+    "@fluentui/react-cards": "^0.205.204",
+    "@fluentui/react-components": "*",
+    "@fluentui/react-icons": "^2.0.297",
+    "@tailwindcss/vite": "^4.1.4",
+    "axios": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "^7.5.0",
+    "scheduler": "^0.23.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "*",
+    "eslint": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-react-refresh": "*",
+    "globals": "*",
+    "vite": "*"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
